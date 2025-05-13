@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center;
   }
   .background-overlay {
     background: url('images/back.jpg') no-repeat center center / cover;

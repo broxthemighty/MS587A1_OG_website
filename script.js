@@ -1,10 +1,10 @@
 function revealMore() {
+    // variables
     const moreInfo = document.getElementById('moreInfo');
     const isVisible = moreInfo.style.display === 'block';
-    const memePic = document.getElementById('memePic');
-  
+    
+    // visibility settings using logic gate
     moreInfo.style.display = isVisible ? 'none' : 'block';
-    memePic.style.display = isVisible ?  'none' : 'block';
   }
   
   
