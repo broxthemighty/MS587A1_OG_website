@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Web Apps Use Databases</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-overlay"></div>
+<header>
+    <h1>Web Apps & Databases — A Practical Overview</h1>
+    <p>Exploring how modern web tools store and manage data efficiently</p>
+    <p>Matt Lindborg UAT MS587 Assignment 1.1 Week 1</p>
+  </header>
+
+<main>
+    <section id="intro">
+      <h2>Defining Web Applications</h2>
+      <p>Web apps are programs you interact with through your browser—think of tools like Gmail or Trello. They're hosted online and handle logic on the server.</p>
+      <img src="images/scheme.jpg" alt="Diagram showing web app interaction" />
+      <p>Image sourced from https://reinvently.com/blog/fundamentals-web-application-architecture/</p>
+      <img src="images/webapps.jpg" alt="AI generated image of webapps" />
+      <p>Image created through DALL-E AI</p>
+    </section>
+
+<section id="backend">
+      <h2>Where Databases Come In</h2>
+      <p>Behind the scenes, web apps talk to databases—storing user data, retrieving product info, or saving chat messages. Without databases, apps wouldn’t remember anything!</p>
+      <img src="images/admin046.gif" alt="Illustration of database flow" />
+      <p>Image sourced from https://docs.oracle.com/cd/B28359_01/server.111/b28310/ds_concepts001.htm#ADMIN12075</p>
+      <img src="images/databases.jpg" alt="AI generated image of databases" />
+      <p>Image generated through DALL-E AI</p>
+    </section>
+
+<section id="use-cases">
+      <h2>Intranet vs Internet Apps</h2>
+      <ul>
+        <li><strong>Intranet:</strong> Internal tools—like HR platforms or dashboards—limited to company users.</li>
+        <li><strong>Internet:</strong> Public apps like Instagram or Amazon that serve millions globally.</li>
+      </ul>
+    </section>
+
+<section id="interactive">
+      <h2>Curious to Learn More?</h2>
+      <button onclick="revealMore()">Show Details</button>
+      <p id="moreInfo" style="display:none;">Developers often use frameworks like Django, Express.js, or Laravel to connect frontends to databases like MySQL or MongoDB.</p>
+    </section>
+  </main>
+<footer>
+    <p>Crafted by a code monkey for a fun class.</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
