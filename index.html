@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- =====================
+   Matt Lindborg
+   UAT MS587 Week 1 Assignment 1.1
+===================== -->
+
 <head>
+  <!-- header section for defining the page -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>How Web Apps Use Databases</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" /><!-- Using an external stylesheet instead of inline -->
 </head>
 <body>
+  <!-- Main body of the page, including images, text, and scripting -->
   <div class="background-overlay"></div>
 <header>
+  <!-- Header for the body, displayed at the top of the page -->
     <h1>Web Apps & Databases — A Practical Overview</h1>
     <p>Exploring how modern web tools store and manage data efficiently</p>
-    <p>Matt Lindborg UAT MS587 Assignment 1.1 Week 1</p>
+    <p>Matt Lindborg UAT MS587 Week 1 Assignment 1.1</p>
   </header>
 
-<main>
+<intro>
+  <!-- Intro section, containing text and images introducing the page -->
     <section id="intro">
       <h2>Defining Web Applications</h2>
       <p>Web apps are programs you interact with through your browser—think of tools like Gmail or Trello. They're hosted online and handle logic on the server.</p>
@@ -25,6 +34,7 @@
     </section>
 
 <section id="backend">
+  <!-- Backend section, containing text and images describing the backend database interaction -->
       <h2>Where Databases Come In</h2>
       <p>Behind the scenes, web apps talk to databases—storing user data, retrieving product info, or saving chat messages. Without databases, apps wouldn’t remember anything!</p>
       <img src="images/admin046.gif" alt="Illustration of database flow" />
@@ -34,6 +44,7 @@
     </section>
 
 <section id="use-cases">
+  <!-- Use cases section, describing some examples for intranet and internet apps -->
       <h2>Intranet vs Internet Apps</h2>
       <ul>
         <li><strong>Intranet:</strong> Internal tools—like HR platforms or dashboards—limited to company users.</li>
@@ -42,14 +53,17 @@
     </section>
 
 <section id="interactive">
+  <!-- Interactive section, containing scripting for the page -->
       <h2>Curious to Learn More?</h2>
       <button onclick="revealMore()">Show Details</button>
       <p id="moreInfo" style="display:none;">Developers often use frameworks like Django, Express.js, or Laravel to connect frontends to databases like MySQL or MongoDB.</p>
     </section>
-  </main>
+  </intro>
 <footer>
+  <!-- Footer section of the page, for fun -->
     <p>Crafted by a code monkey for a fun class.</p>
   </footer>
+  <!-- Source for javascript being used on the page -->
 <script src="script.js"></script>
 </body>
 </html>
